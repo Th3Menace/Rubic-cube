@@ -7,9 +7,10 @@ exports.create = (cubeData) => {
     const newCube = {
         id:uniqid(),
         ...cubeData,
-      }
-      
-  cubes.push(newCube );
+      };
+
+  cubes.push(newCube);
+
 
 return newCube;
 };  
